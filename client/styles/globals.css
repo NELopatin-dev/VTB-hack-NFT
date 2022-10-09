@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'pixelFont';
+  src: url('../public/fonts/Press_Start_2P/PressStart2P-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: 'simpleFont';
+  src: url('../public/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'simpleFont';
+  outline: 0;
+}
+
+:root {
+  --dark: #1A1E23;
+  --light: #E2E5E9;
+  --grey: #414A58;
+  --dark-blue: #4789EB;
+  --light-blue: rgb(128, 207, 254);
+}

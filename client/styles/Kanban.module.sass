@@ -1,0 +1,81 @@
+@keyframes planet-start 
+  0% 
+    -webkit-transform: translate(-5px, -5px) scale(.05) rotate(-15deg)
+    transform: translate(-5px, -5px) scale(.05) rotate(-15deg)
+  
+  100% 
+    -webkit-transform: translate(30%, 5px) scale(1.2) rotate(5deg)
+    transform: translate(30%, 5px) scale(1.2) rotate(5deg)
+  
+@keyframes planet-idle 
+  0% 
+    -webkit-transform: translate(30%, 5px) scale(1.2) rotate(5deg)
+    transform: translate(30%, 5px) scale(1.2) rotate(5deg)
+  
+  100% 
+    -webkit-transform: translate(28%, 0px) scale(1.1) rotate(0deg)
+    transform: translate(28%, 0px) scale(1.1) rotate(0deg)
+
+@keyframes function-idle 
+  0% 
+    -webkit-transform: translate(0, 0) scale(1) rotate(-5deg)
+    transform: translate(5px, 0) scale(1) rotate(-5deg)
+  
+  100% 
+    -webkit-transform: translate(0, 0px) scale(1.05) rotate(5deg)
+    transform: translate(5px, 0px) scale(1.05) rotate(5deg)
+
+
+
+.main 
+    min-height: 100vh
+    width: 100vw
+    background: rgb(11,12,15)
+    background: var(--dark)
+    color: var(--dark)
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    overflow: hidden
+
+    .content
+      width: 100%
+      min-height: 100vh
+      display: flex
+      flex-direction: column
+      gap: 10px
+      justify-content: space-around
+      padding-left: 100px
+      padding-top: 15px
+      padding-right: 20px
+
+      .navbar
+          background-color: rgba(226, 229, 233, .2)
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3)
+          height: 50px
+          width: 100%
+          border-radius: 10px
+
+      .kanbanContainer
+          height: calc(100vh - 100px)
+          width: 100%
+          display: flex
+          flex-direction: row
+          justify-content: flex-start
+          align-items: flex-start
+          gap: 20px
+          overflow-y: scroll
+          overflow-x: visible
+              
+                  
+
+
+                  
+
+
+          
+
+// @media (max-width: 1000px) 
+    
+
